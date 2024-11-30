@@ -1,0 +1,207 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Georgia', serif;
+  line-height: 2;
+  background-color: #feffdb;
+  text-indent: 20px;
+}
+
+main{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+main h1 {
+  text-align: center; 
+  padding-top: 30px;
+
+}
+
+.table-pho{
+  border:1px solid grey;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+body.p {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+  .images-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+  background-color: #262625;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+};
+
+.header {
+  background-color: #262625;
+  padding: 20px 0;
+  width: 100%;
+
+  display: inline-block;
+}
+.logo-text{
+background-color: #262625;
+color: #fff;
+}
+
+.nav{
+  background-color: #262625;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Navigation */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li {
+  margin: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.plan {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-header {
+  background-color: #f1d9a9;
+  padding: 15px;
+  text-align: center;
+}
+
+.plan-header p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.plan-header h3 {
+  margin: 10px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.plan-details {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.plan-details li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.plan-details span {
+  font-weight: bold;
+  color: #000;
+}
+
+.pricing {
+  padding: 20px;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+}
+
+thead th {
+  background-color: #f1d9a9;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid #292929;
+}
+
+tbody td {
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid #292929;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f4e7;
+}
+
+tbody tr:hover {
+  background-color: #f1e9d6;
+}
