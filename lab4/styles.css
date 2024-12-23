@@ -53,12 +53,12 @@ footer {
   background-color: #262625;
   color: #ffffff;
   text-align: center;
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
-  bottom: 0;
   width: 100%;
 };
 
@@ -114,6 +114,7 @@ color: #fff;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  
 }
 
 .plan {
@@ -204,4 +205,55 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: #f1e9d6;
+}
+
+div.box {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  75% {
+    font-size: 200%;
+    margin-left: 25%;
+    width: 150%;
+  }
+}
+
+body .uslanim {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+#postForm {
+  background-color: #e9e22d;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 200px;
+
+  flex-direction: column;
 }
